@@ -4,9 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Northmanger Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Northmanger | Market Entry & Growth Intelligence for Fintech</title>
+  <meta name="description" content="Northmanger builds expansion infrastructure for fintech operators and financial institutions navigating the EU–Africa corridor. Market entry systems, regulatory intelligence, and cross-border growth architecture — not opinions, but operational tools you own.">
+  <meta name="keywords" content="fintech market entry, EU Africa fintech expansion, cross-border fintech strategy, fintech regulatory intelligence, African fintech consulting, European fintech Africa, CBN PSP license, FCA EMI license, fintech expansion infrastructure, Northmanger">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Northmanger | Market Entry & Growth Intelligence for Fintech">
+  <meta property="og:description" content="Expansion infrastructure for fintech operators crossing the EU–Africa corridor. Systems built, not slide decks delivered.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://northmanger.com">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -30,6 +36,105 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <style>
+    /* ── Hero right-column overrides ── */
+    .hero .hero-visual {
+      height: auto;
+      padding: 2rem 0 2rem 2rem;
+    }
+    .hero .hero-visual .main-image {
+      position: static;
+      height: auto;
+      border-radius: 0;
+      overflow: visible;
+      box-shadow: none;
+    }
+    .nm-panel {
+      border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin-bottom: 1.1rem;
+      background: var(--surface-color);
+    }
+    .nm-panel-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: color-mix(in srgb, var(--default-color), transparent 45%);
+      font-weight: 600;
+      margin-bottom: 0.85rem;
+    }
+    .nm-report-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .nm-report-icon {
+      width: 44px;
+      height: 44px;
+      background: color-mix(in srgb, var(--accent-color), transparent 90%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 1.2rem;
+      color: var(--accent-color);
+    }
+    .nm-report-date {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: color-mix(in srgb, var(--default-color), transparent 45%);
+      font-weight: 600;
+    }
+    .nm-report-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--heading-color);
+      line-height: 1.3;
+      margin: 0.15rem 0;
+    }
+    .nm-report-sub {
+      font-size: 0.78rem;
+      color: color-mix(in srgb, var(--default-color), transparent 35%);
+    }
+    .nm-pill-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+    .nm-pill {
+      background: color-mix(in srgb, var(--surface-color), var(--default-color) 5%);
+      border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+      border-radius: 20px;
+      padding: 0.28rem 0.8rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--heading-color);
+    }
+    .nm-fw-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 92%);
+    }
+    .nm-fw-row:last-child { border-bottom: none; }
+    .nm-fw-name {
+      font-size: 0.83rem;
+      font-weight: 500;
+      color: var(--heading-color);
+    }
+    .nm-fw-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: var(--accent-color);
+    }
+    @media (max-width: 992px) {
+      .hero .hero-visual { padding: 1.5rem 0 0 0; }
+    }
+  </style>
 
 </head>
 
@@ -41,8 +146,6 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.webp" alt=""> -->
           <h1 class="sitename">Northmanger</h1>
         </a>
 
@@ -52,21 +155,12 @@
             <li><a href="about.html">About</a></li>
             <li><a href="departments.html">Approach</a></li>
             <li><a href="services.html">Services</a></li>
-            <!-- <li><a href="doctors.html">Doctors</a></li> -->
             <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="starter-page.html">Blog</a></li>
-              <!-- <li><a href="service-details.html">Service Details</a></li> -->
-              <!-- <li><a href="appointment.html">Appointment</a></li> -->
-              <!-- <li><a href="testimonials.html">Testimonials</a></li> -->
               <li><a href="faq.html">Frequently Asked Questions</a></li>
-              <!-- <li><a href="gallery.html">Gallery</a></li> -->
-              <!-- <li><a href="terms.html">Terms</a></li> -->
-              <!-- <li><a href="privacy.html">Privacy</a></li> -->
-              <!-- <li><a href="404.html">404</a></li> -->
             </ul>
             </li>
-            
             <li><a href="contact.html">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -91,49 +185,48 @@
               <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
                 <div class="badge-item">
                   <i class="bi bi-shield-check"></i>
-                  <span>Accredited</span>
+                  <span>EU–Africa Corridor</span>
                 </div>
                 <div class="badge-item">
                   <i class="bi bi-clock"></i>
-                  <span>24/7 Emergency</span>
+                  <span>Regulatory Intelligence</span>
                 </div>
                 <div class="badge-item">
                   <i class="bi bi-star-fill"></i>
-                  <span>4.9/5 Rating</span>
+                  <span>Decision Infrastructure</span>
                 </div>
               </div>
 
               <h1 data-aos="fade-right" data-aos-delay="300">
-                Excellence in <span class="highlight">Healthcare</span> With Compassionate Care
+                Cross-Border Expansion <span class="highlight">Infrastructure</span> for Fintech
               </h1>
 
               <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                Northmanger builds the systems, models, and frameworks that fintech operators need to enter and scale across the EU–Africa corridor — without burning capital on avoidable mistakes.
               </p>
 
               <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
                 <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="2"
+                  <h3><span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="2"
                       class="purecounter"></span>+</h3>
-                  <p>Years Experience</p>
+                  <p>Regulated Markets Covered</p>
                 </div>
                 <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="5000" data-purecounter-duration="2"
-                      class="purecounter"></span>+</h3>
-                  <p>Patients Treated</p>
+                  <h3><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="2"
+                      class="purecounter"></span></h3>
+                  <p>License Frameworks Mapped</p>
                 </div>
                 <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="2"
+                  <h3><span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="2"
                       class="purecounter"></span>+</h3>
-                  <p>Medical Experts</p>
+                  <p>Fintech Profiles in Database</p>
                 </div>
               </div>
 
               <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
-                <a href="appointment.html" class="btn btn-primary"><i class="bi bi-telephone me-2"></i> Book A Call</a>
-                <a href="" class="btn btn-outline glightbox">
-                  Contact Us
+                <a href="appointment.html" class="btn btn-primary"><i class="bi bi-telephone me-2"></i> Book a Discovery Call</a>
+                <a href="services.html" class="btn btn-outline">
+                  Explore Services
                 </a>
               </div>
 
@@ -142,42 +235,71 @@
                   <i class="bi bi-telephone-fill"></i>
                 </div>
                 <div class="emergency-info">
-                  <small>Emergency Hotline</small>
-                  <strong>+1 (555) 911-2468</strong>
+                  <small>Direct Line</small>
+                  <strong><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5b2acb6a1aaa885abaab7b1ada8a4aba2a0b7eba6aaa8">[email&#160;protected]</a></strong>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6">
-            <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+            <div class="hero-visual">
               <div class="main-image">
-                <img src="assets/img/health/staff-10.webp" alt="Modern Healthcare Facility" class="img-fluid">
-                <div class="floating-card appointment-card">
-                  <div class="card-icon">
-                    <i class="bi bi-calendar-check"></i>
-                  </div>
-                  <div class="card-content">
-                    <h6>Next Available</h6>
-                    <p>Today 2:30 PM</p>
-                    <small>Dr. Sarah Johnson</small>
-                  </div>
-                </div>
-                <div class="floating-card rating-card">
-                  <div class="card-content">
-                    <div class="rating-stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
+
+                <!-- Intelligence Report launch panel -->
+                <div class="nm-panel">
+                  <div class="nm-report-row">
+                    <div class="nm-report-icon">
+                      <i class="bi bi-calendar-check"></i>
                     </div>
-                    <h6>4.9/5</h6>
-                    <small>1,234 Reviews</small>
+                    <div>
+                      <div class="nm-report-date">Coming April 17, 2026</div>
+                      <div class="nm-report-title">EU–Africa Fintech Intelligence Report</div>
+                      <div class="nm-report-sub">Regulatory frameworks · Capital flows · White space map</div>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="background-elements">
+
+                <!-- Markets panel -->
+                <div class="nm-panel">
+                  <div class="nm-panel-label">Markets We Cover</div>
+                  <div class="nm-pill-wrap">
+                    <span class="nm-pill">Nigeria</span>
+                    <span class="nm-pill">Kenya</span>
+                    <span class="nm-pill">South Africa</span>
+                    <span class="nm-pill">United Kingdom</span>
+                    <span class="nm-pill">EU (Lithuania / Ireland)</span>
+                  </div>
+                </div>
+
+                <!-- Licence frameworks panel -->
+                <div class="nm-panel" style="margin-bottom:0;">
+                  <div class="nm-panel-label">Licence Frameworks Mapped</div>
+                  <div class="nm-fw-row">
+                    <span class="nm-fw-name">FCA EMI (UK)</span>
+                    <span class="nm-fw-tag">Full roadmap</span>
+                  </div>
+                  <div class="nm-fw-row">
+                    <span class="nm-fw-name">Bank of Lithuania EMI (EU)</span>
+                    <span class="nm-fw-tag">Full roadmap</span>
+                  </div>
+                  <div class="nm-fw-row">
+                    <span class="nm-fw-name">CBN PSP / MMO (Nigeria)</span>
+                    <span class="nm-fw-tag">Full roadmap</span>
+                  </div>
+                  <div class="nm-fw-row">
+                    <span class="nm-fw-name">CBK PSP (Kenya)</span>
+                    <span class="nm-fw-tag">Full roadmap</span>
+                  </div>
+                  <div class="nm-fw-row">
+                    <span class="nm-fw-name">FSCA FSP (South Africa)</span>
+                    <span class="nm-fw-tag">Full roadmap</span>
+                  </div>
+                </div>
+
+              </div><!-- /.main-image -->
+
+              <div class="background-elements" style="display:none;">
                 <div class="element element-1"></div>
                 <div class="element element-2"></div>
                 <div class="element element-3"></div>
@@ -198,35 +320,31 @@
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
             <div class="about-content">
-              <h2 class="section-heading">Compassionate Care, Advanced Medicine</h2>
-              <p class="lead-text">For over two decades, we've been dedicated to providing exceptional healthcare that
-                combines cutting-edge medical technology with the personal touch our patients deserve.</p>
+              <h2 class="section-heading">We Build Expansion Infrastructure. Not Slide Decks.</h2>
+              <p class="lead-text">Most strategy firms hand you a report and walk away. Northmanger builds the operational tools — simulation engines, regulatory maps, and entry architectures — that live inside your strategy function long after the engagement ends.</p>
 
-              <p>Our multidisciplinary team of specialists works collaboratively to ensure every patient receives
-                comprehensive care tailored to their unique needs. From preventive services to complex procedures, we
-                maintain the highest standards of medical excellence while fostering an environment of trust and
-                healing.</p>
+              <p>We specialise in one of the highest-friction corridors in global financial services: fintech expansion between Europe and Africa. Our work is grounded in deep regulatory intelligence, real market data, and native understanding of how capital, compliance, and culture interact across these markets.</p>
 
               <div class="stats-grid">
                 <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="15000"
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="6"
                     data-purecounter-duration="1"></div>
-                  <div class="stat-label">Patients Served</div>
+                  <div class="stat-label">Core Expansion Markets</div>
                 </div>
                 <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="25"
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="5"
                     data-purecounter-duration="1"></div>
-                  <div class="stat-label">Years of Excellence</div>
+                  <div class="stat-label">Regulatory Frameworks</div>
                 </div>
                 <div class="stat-item">
-                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="50"
+                  <div class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="3"
                     data-purecounter-duration="1"></div>
-                  <div class="stat-label">Medical Specialists</div>
+                  <div class="stat-label">Intelligence Products</div>
                 </div>
               </div>
 
               <div class="cta-section">
-                <a href="about.html" class="btn-primary">Learn More About Us</a>
+                <a href="about.html" class="btn-primary">How We Work</a>
               </div>
             </div>
           </div>
@@ -234,7 +352,7 @@
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div class="about-visual">
               <div class="main-image">
-                <img src="assets/img/health/facilities-9.webp" alt="Modern medical facility" class="img-fluid">
+                <img src="assets/img/health/facilities-9.webp" alt="Northmanger market intelligence" class="img-fluid">
               </div>
               <div class="floating-card">
                 <div class="card-content">
@@ -242,15 +360,15 @@
                     <i class="bi bi-heart-pulse"></i>
                   </div>
                   <div class="card-text">
-                    <h4>24/7 Emergency Care</h4>
-                    <p>Always here when you need us most</p>
+                    <h4>Priced Against Failure</h4>
+                    <p>A failed market entry costs $300K–$1M+. Our infrastructure is cheap insurance.</p>
                   </div>
                 </div>
               </div>
               <div class="experience-badge">
                 <div class="badge-content">
-                  <span class="years">25+</span>
-                  <span class="text">Years of Trusted Care</span>
+                  <span class="years">EU↔AF</span>
+                  <span class="text">Corridor Specialists</span>
                 </div>
               </div>
             </div>
@@ -264,11 +382,10 @@
     <!-- Featured Departments Section -->
     <section id="featured-departments" class="featured-departments section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Departments</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <h2>Core Intelligence Areas</h2>
+        <p>The EU–Africa fintech corridor is complex, regulated, and high-stakes. We cover the terrain so you don't have to learn it the expensive way.</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -278,70 +395,66 @@
             <div class="specialty-card">
               <div class="specialty-content">
                 <div class="specialty-meta">
-                  <span class="specialty-label">Specialized Care</span>
+                  <span class="specialty-label">Regulatory Intelligence</span>
                 </div>
-                <h3>Cardiovascular Medicine</h3>
-                <p>Advanced diagnostic imaging and interventional procedures for comprehensive heart health management
-                  with personalized treatment protocols.</p>
+                <h3>Licensing & Compliance Architecture</h3>
+                <p>We map every material license framework across the corridor — FCA EMI, Bank of Lithuania EMI, CBN PSP, CBK PSP, FSCA FSP — and model the capital, timeline, and operational requirements for your specific entry scenario.</p>
                 <div class="specialty-features">
-                  <span><i class="bi bi-check-circle-fill"></i>24/7 Emergency Cardiac Care</span>
-                  <span><i class="bi bi-check-circle-fill"></i>Minimally Invasive Procedures</span>
+                  <span><i class="bi bi-check-circle-fill"></i>5 Regulatory Frameworks Mapped</span>
+                  <span><i class="bi bi-check-circle-fill"></i>Capital Requirement Modelling</span>
                 </div>
-                <a href="department-details.html" class="specialty-link">
-                  Explore Cardiology <i class="bi bi-arrow-right"></i>
+                <a href="departments.html" class="specialty-link">
+                  Explore Regulatory Work <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
               <div class="specialty-visual">
-                <img src="assets/img/health/cardiology-1.webp" alt="Cardiovascular Medicine" class="img-fluid">
+                <img src="assets/img/health/cardiology-1.webp" alt="Regulatory Intelligence" class="img-fluid">
                 <div class="visual-overlay">
-                  <i class="bi bi-heart-pulse"></i>
+                  <i class="bi bi-shield-check"></i>
                 </div>
               </div>
             </div>
-          </div><!-- End Specialty Card -->
+          </div>
 
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="specialty-card">
               <div class="specialty-content">
                 <div class="specialty-meta">
-                  <span class="specialty-label">Expert Care</span>
+                  <span class="specialty-label">Market Intelligence</span>
                 </div>
-                <h3>Neurological Sciences</h3>
-                <p>Cutting-edge neuroimaging and neurosurgical expertise for complex brain and spinal cord conditions
-                  with innovative treatment approaches.</p>
+                <h3>Competitive Saturation & White Space Analysis</h3>
+                <p>We map the competitive density of every major fintech category across target markets — identifying where the market is saturated, where white space exists, and where the highest-probability entry points are for your specific product.</p>
                 <div class="specialty-features">
-                  <span><i class="bi bi-check-circle-fill"></i>Advanced Brain Imaging</span>
-                  <span><i class="bi bi-check-circle-fill"></i>Robotic Surgery</span>
+                  <span><i class="bi bi-check-circle-fill"></i>150+ Fintech Profiles Tracked</span>
+                  <span><i class="bi bi-check-circle-fill"></i>Category Saturation Heatmaps</span>
                 </div>
-                <a href="department-details.html" class="specialty-link">
-                  Explore Neurology <i class="bi bi-arrow-right"></i>
+                <a href="departments.html" class="specialty-link">
+                  Explore Market Intelligence <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
               <div class="specialty-visual">
-                <img src="assets/img/health/neurology-4.webp" alt="Neurological Sciences" class="img-fluid">
+                <img src="assets/img/health/neurology-4.webp" alt="Competitive Intelligence" class="img-fluid">
                 <div class="visual-overlay">
-                  <i class="bi bi-cpu"></i>
+                  <i class="bi bi-graph-up"></i>
                 </div>
               </div>
             </div>
-          </div><!-- End Specialty Card -->
+          </div>
 
-          
         </div>
 
         <div class="emergency-banner" data-aos="fade-up" data-aos-delay="400">
           <div class="row align-items-center">
             <div class="col-lg-8">
               <div class="emergency-content">
-                <h3>Emergency Services Available 24/7</h3>
-                <p>Our emergency department is equipped with state-of-the-art technology and staffed by board-certified
-                  emergency physicians ready to provide immediate care.</p>
+                <h3>The State of Cross-Border Fintech Expansion: EU & Africa 2026</h3>
+                <p>Our flagship intelligence report launches April 17, 2026 — covering funding flows, regulatory frameworks, failure patterns, and the Cross-Border Entry Compression Model™.</p>
               </div>
             </div>
             <div class="col-lg-4 text-lg-end">
-              <a href="tel:+15551234567" class="emergency-btn">
-                <i class="bi bi-telephone-fill"></i>
-                Call Emergency: (555) 123-4567
+              <a href="contact.html" class="emergency-btn">
+                <i class="bi bi-file-earmark-text"></i>
+                Get Early Access
               </a>
             </div>
           </div>
@@ -354,11 +467,10 @@
     <!-- Featured Services Section -->
     <section id="featured-services" class="featured-services section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+        <h2>What We Build</h2>
+        <p>Northmanger engagements produce infrastructure you own — not recommendations that expire when the engagement ends.</p>
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -367,20 +479,19 @@
           <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
             <div class="featured-service-main">
               <div class="service-image-wrapper">
-                <img src="assets/img/health/consultation-4.webp" alt="Premier Healthcare Services" class="img-fluid"
+                <img src="assets/img/health/consultation-4.webp" alt="Northmanger Expansion Infrastructure" class="img-fluid"
                   loading="lazy">
                 <div class="service-overlay">
                   <div class="service-badge">
-                    <i class="bi bi-heart-pulse"></i>
-                    <span>Emergency Care</span>
+                    <i class="bi bi-cpu"></i>
+                    <span>Simulation Engine</span>
                   </div>
                 </div>
               </div>
               <div class="service-details">
-                <h2>Comprehensive Healthcare Excellence</h2>
-                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ante ipsum primis in faucibus
-                  orci luctus et ultrices posuere cubilia curae donec velit neque.</p>
-                <a href="#!" class="main-cta">Explore Our Services</a>
+                <h2>Cross-Border Expansion Simulation Engine</h2>
+                <p>Input your origin market, target market, license type, and pricing model — and receive a 3-year revenue forecast, regulatory cost burden, break-even timeline, capital requirement estimate, and Risk Index score. Built for operators making real decisions with real capital at stake.</p>
+                <a href="services.html" class="main-cta">See All Services</a>
               </div>
             </div>
           </div>
@@ -390,36 +501,34 @@
 
               <div class="service-item" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-icon-wrapper">
-                  <i class="bi bi-capsule"></i>
+                  <i class="bi bi-clipboard-data"></i>
                 </div>
                 <div class="service-info">
-                  <h4>Dermatology Northmanger</h4>
-                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                  <a href="#!" class="service-link">Learn More</a>
+                  <h4>Market Entry Feasibility System</h4>
+                  <p>A complete entry assessment — regulatory pathway, competitive positioning, unit economics stress-test, and go/no-go recommendation — in 5 business days.</p>
+                  <a href="services.html" class="service-link">Learn More</a>
                 </div>
               </div>
 
               <div class="service-item" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-icon-wrapper">
-                  <i class="bi bi-bandaid"></i>
+                  <i class="bi bi-diagram-3"></i>
                 </div>
                 <div class="service-info">
-                  <h4>Surgery Center</h4>
-                  <p>Donec rutrum congue leo eget malesuada curabitur arcu erat accumsan id imperdiet et porttitor at
-                    sem.</p>
-                  <a href="#!" class="service-link">Learn More</a>
+                  <h4>90-Day Market Invasion Architecture</h4>
+                  <p>Enterprise-level operational planning: ICP segmentation, channel prioritisation, partner acquisition sequencing, pipeline modelling, and milestone gating.</p>
+                  <a href="services.html" class="service-link">Learn More</a>
                 </div>
               </div>
 
               <div class="service-item" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-icon-wrapper">
-                  <i class="bi bi-activity"></i>
+                  <i class="bi bi-database"></i>
                 </div>
                 <div class="service-info">
-                  <h4>Diagnostics Lab</h4>
-                  <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui cras ultricies ligula sed
-                    magna.</p>
-                  <a href="#!" class="service-link">Learn More</a>
+                  <h4>Competitive Intelligence Database</h4>
+                  <p>150+ fintech profiles with licensing status, product vertical, fee structures, settlement rails, funding rounds, and expansion history — queryable on demand.</p>
+                  <a href="services.html" class="service-link">Learn More</a>
                 </div>
               </div>
 
@@ -434,11 +543,11 @@
             <div class="col-lg-3 col-md-6">
               <div class="specialty-card">
                 <div class="specialty-image">
-                  <img src="assets/img/health/maternal-2.webp" alt="Maternal Care" class="img-fluid" loading="lazy">
+                  <img src="assets/img/health/maternal-2.webp" alt="Nigeria Market Entry" class="img-fluid" loading="lazy">
                 </div>
                 <div class="specialty-content">
-                  <h5>Maternal Care</h5>
-                  <span>Expert pregnancy &amp; delivery support</span>
+                  <h5>Nigeria</h5>
+                  <span>CBN PSP licensing & MMO framework</span>
                 </div>
               </div>
             </div>
@@ -446,11 +555,11 @@
             <div class="col-lg-3 col-md-6">
               <div class="specialty-card">
                 <div class="specialty-image">
-                  <img src="assets/img/health/vaccination-3.webp" alt="Vaccination" class="img-fluid" loading="lazy">
+                  <img src="assets/img/health/vaccination-3.webp" alt="UK Market Entry" class="img-fluid" loading="lazy">
                 </div>
                 <div class="specialty-content">
-                  <h5>Vaccination</h5>
-                  <span>Complete immunization programs</span>
+                  <h5>United Kingdom</h5>
+                  <span>FCA EMI authorisation pathway</span>
                 </div>
               </div>
             </div>
@@ -458,11 +567,11 @@
             <div class="col-lg-3 col-md-6">
               <div class="specialty-card">
                 <div class="specialty-image">
-                  <img src="assets/img/health/emergency-1.webp" alt="Emergency Care" class="img-fluid" loading="lazy">
+                  <img src="assets/img/health/emergency-1.webp" alt="Kenya Market Entry" class="img-fluid" loading="lazy">
                 </div>
                 <div class="specialty-content">
-                  <h5>Emergency Care</h5>
-                  <span>24/7 critical care services</span>
+                  <h5>Kenya</h5>
+                  <span>CBK PSP framework & M-Pesa ecosystem</span>
                 </div>
               </div>
             </div>
@@ -470,11 +579,11 @@
             <div class="col-lg-3 col-md-6">
               <div class="specialty-card">
                 <div class="specialty-image">
-                  <img src="assets/img/health/facilities-6.webp" alt="Advanced Tech" class="img-fluid" loading="lazy">
+                  <img src="assets/img/health/facilities-6.webp" alt="EU Passporting" class="img-fluid" loading="lazy">
                 </div>
                 <div class="specialty-content">
-                  <h5>Advanced Technology</h5>
-                  <span>State-of-the-art medical equipment</span>
+                  <h5>EU (Lithuania / Ireland)</h5>
+                  <span>EMI passporting across 27 markets</span>
                 </div>
               </div>
             </div>
@@ -486,13 +595,11 @@
 
     </section><!-- /Featured Services Section -->
 
-    <!-- Find A Doctor Section -->
-    <section id="find-a-doctor" class="find-a-doctor section">
-
+    <!-- Blog Posts Section -->
     <section id="departments" class="departments section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Blog Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Intelligence & Insight</h2>
+        <p>Northmanger publishes in-depth analysis on fintech expansion, regulatory change, and competitive dynamics across the EU–Africa corridor.</p>
       </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -502,70 +609,65 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="department-card">
               <div class="department-icon">
-                <i class="fas fa-heartbeat"></i>
+                <i class="fas fa-landmark"></i>
               </div>
               <div class="department-image">
-                <img src="assets/img/health/cardiology-3.webp" alt="Cardiology Department" class="img-fluid">
+                <img src="assets/img/health/cardiology-3.webp" alt="Why EU Fintechs Fail in Africa" class="img-fluid">
               </div>
               <div class="department-content">
-                <h3>Cardiology</h3>
-                <p>Comprehensive heart care with advanced diagnostic tools and expert cardiologists dedicated to your
-                  cardiovascular health.</p>
-                <a href="#!" class="learn-more">
-                  <span>Learn More</span>
+                <h3>Why EU Fintechs Fail in Africa</h3>
+                <p>Six documented failure patterns — from regulatory underestimation to broken unit economics — that consistently derail otherwise well-capitalised European operators.</p>
+                <a href="starter-page.html" class="learn-more">
+                  <span>Read Analysis</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="department-card">
               <div class="department-icon">
-                <i class="fas fa-brain"></i>
+                <i class="fas fa-exchange-alt"></i>
               </div>
               <div class="department-image">
-                <img src="assets/img/health/neurology-2.webp" alt="Neurology Department" class="img-fluid">
+                <img src="assets/img/health/neurology-2.webp" alt="The Remittance Corridor Opportunity" class="img-fluid">
               </div>
               <div class="department-content">
-                <h3>Neurology</h3>
-                <p>Advanced treatment for neurological disorders with cutting-edge technology and specialized
-                  neurological care teams.</p>
-                <a href="#!" class="learn-more">
-                  <span>Learn More</span>
+                <h3>The Remittance Corridor Opportunity</h3>
+                <p>Africa–Europe remittance corridors carry billions annually. Here's where the margin is, who controls the rails, and where the white space remains for new entrants.</p>
+                <a href="starter-page.html" class="learn-more">
+                  <span>Read Analysis</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="department-card">
               <div class="department-icon">
-                <i class="fas fa-bone"></i>
+                <i class="fas fa-file-alt"></i>
               </div>
               <div class="department-image">
-                <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics Department" class="img-fluid">
+                <img src="assets/img/health/orthopedics-4.webp" alt="EMI vs PSP: Choosing the Right Licence" class="img-fluid">
               </div>
               <div class="department-content">
-                <h3>Orthopedics</h3>
-                <p>Expert bone and joint care offering comprehensive treatment from sports injuries to complex
-                  reconstructive surgery.</p>
-                <a href="#!" class="learn-more">
-                  <span>Learn More</span>
+                <h3>EMI vs PSP: Choosing the Right Licence</h3>
+                <p>The licence you choose shapes your capital requirement, product scope, and time to market. A breakdown of the five major frameworks and when each makes strategic sense.</p>
+                <a href="starter-page.html" class="learn-more">
+                  <span>Read Analysis</span>
                   <i class="fas fa-arrow-right"></i>
                 </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
 
-          
         </div>
 
       </div>
 
-    </section><!-- /Departments Section -->
-
+    </section>
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section light-background">
@@ -577,17 +679,16 @@
 
             <div class="col-lg-6">
               <div class="content-wrapper" data-aos="fade-up" data-aos-delay="200">
-                <h1>Excellence in Medical Care, Every Day</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <h1>The Expansion Decision Is Already Made. The Question Is Whether You Survive It.</h1>
+                <p>A failed market entry in Nigeria, Kenya, or the UK doesn't just cost money — it costs 12–18 months of runway, team morale, and credibility with investors. Northmanger exists to compress that risk into something manageable before you commit capital.</p>
 
                 <div class="cta-wrapper">
                   <a href="appointment.html" class="primary-cta">
-                    <span>Schedule Consultation</span>
+                    <span>Book a Discovery Call</span>
                     <i class="bi bi-arrow-right"></i>
                   </a>
                   <a href="services.html" class="secondary-cta">
-                    <span>Explore Services</span>
+                    <span>View Services</span>
                     <i class="bi bi-arrow-right"></i>
                   </a>
                 </div>
@@ -596,7 +697,7 @@
 
             <div class="col-lg-6">
               <div class="image-container" data-aos="fade-left" data-aos-delay="300">
-                <img src="assets/img/health/facilities-9.webp" alt="Medical Excellence" class="img-fluid">
+                <img src="assets/img/health/facilities-9.webp" alt="Northmanger Expansion Infrastructure" class="img-fluid">
               </div>
             </div>
 
@@ -612,20 +713,18 @@
                 <div class="feature-icon">
                   <i class="bi bi-shield-check"></i>
                 </div>
-                <h3>Advanced Technology</h3>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                <h3>Regulatory Depth</h3>
+                <p>We track every material licence framework across the EU–Africa corridor — capital requirements, timelines, operational constraints, and enforcement patterns.</p>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="feature-block" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature-icon">
-                  <i class="bi bi-clock"></i>
+                  <i class="bi bi-cpu"></i>
                 </div>
-                <h3>24/7 Availability</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-                  excepteur.</p>
+                <h3>Simulation-Grade Modelling</h3>
+                <p>Revenue forecasts, break-even timelines, and capital requirement models built for operators who need numbers they can present to a board — not estimates on a slide.</p>
               </div>
             </div>
 
@@ -634,9 +733,8 @@
                 <div class="feature-icon">
                   <i class="bi bi-people"></i>
                 </div>
-                <h3>Expert Team</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
-                  totam rem.</p>
+                <h3>Native Corridor Intelligence</h3>
+                <p>Deep knowledge of how regulation, infrastructure, and market culture actually interact across Nigeria, Kenya, Ghana, South Africa, the UK, Lithuania, and Ireland.</p>
               </div>
             </div>
 
@@ -649,19 +747,18 @@
 
             <div class="col-lg-8">
               <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
-                <h2>Need Immediate Medical Assistance?</h2>
-                <p>Our emergency response team is available around the clock to provide immediate medical support when
-                  you need it most.</p>
+                <h2>Ready to Map Your Entry?</h2>
+                <p>Start with a 30-minute discovery call. We'll identify your expansion stage, the highest-risk variables in your entry scenario, and whether Northmanger is the right fit for what you're building.</p>
               </div>
             </div>
 
             <div class="col-lg-4">
               <div class="contact-actions" data-aos="fade-up" data-aos-delay="300">
-                <a href="tel:5551234567" class="emergency-call">
-                  <i class="bi bi-telephone"></i>
-                  <span>(555) 123-4567</span>
+                <a href="/cdn-cgi/l/email-protection#a1d6c8d2c5cecce1cfced3d5c9ccc0cfc6c4d38fc2cecc" class="emergency-call">
+                  <i class="bi bi-envelope"></i>
+                  <span><span class="__cf_email__" data-cfemail="681f011b0c07052806071a1c000509060f0d1a460b0705">[email&#160;protected]</span></span>
                 </a>
-                <a href="contact.html" class="contact-link">Find Location</a>
+                <a href="contact.html" class="contact-link">Book a Call</a>
               </div>
             </div>
 
@@ -686,21 +783,20 @@
               <a href="index.html" class="logo d-flex align-items-center mb-4">
                 <span class="sitename">Northmanger</span>
               </a>
-              <p class="brand-description">Crafting exceptional digital experiences through thoughtful design and
-                innovative solutions that elevate your brand presence.</p>
+              <p class="brand-description">Market Entry & Growth Intelligence for Fintech. We build the expansion infrastructure that lets operators cross the EU–Africa corridor without burning capital on avoidable mistakes.</p>
 
               <div class="contact-info mt-5">
                 <div class="contact-item">
                   <i class="bi bi-geo-alt"></i>
-                  <span>123 Creative Boulevard, Design District, NY 10012</span>
-                </div>
-                <div class="contact-item">
-                  <i class="bi bi-telephone"></i>
-                  <span>+1 (555) 987-6543</span>
+                  <span>Lagos, Nigeria · Operating across EU–Africa corridor</span>
                 </div>
                 <div class="contact-item">
                   <i class="bi bi-envelope"></i>
-                  <span>wisdom@northmanger.com</span>
+                  <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f88f918b9c9795b896978a8c909599969f9d8ad69b9795">[email&#160;protected]</a></span>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-linkedin"></i>
+                  <span>linkedin.com/company/northmanger</span>
                 </div>
               </div>
             </div>
@@ -712,13 +808,12 @@
 
                 <div class="col-6 col-lg-3">
                   <div class="nav-column">
-                    <h6>Studio</h6>
+                    <h6>Firm</h6>
                     <nav class="footer-nav">
-                      <a href="#!">Our Story</a>
-                      <a href="#!">Design Process</a>
-                      <a href="#!">Portfolio</a>
-                      <a href="#!">Case Studies</a>
-                      <a href="#!">Awards</a>
+                      <a href="about.html">Our Approach</a>
+                      <a href="departments.html">How We Work</a>
+                      <a href="about.html">Why Northmanger</a>
+                      <a href="starter-page.html">Intelligence Blog</a>
                     </nav>
                   </div>
                 </div>
@@ -727,24 +822,23 @@
                   <div class="nav-column">
                     <h6>Services</h6>
                     <nav class="footer-nav">
-                      <a href="#!">Brand Identity</a>
-                      <a href="#!">Web Design</a>
-                      <a href="#!">Mobile Apps</a>
-                      <a href="#!">Digital Strategy</a>
-                      <a href="#!">Consultation</a>
+                      <a href="services.html">Market Entry Feasibility</a>
+                      <a href="services.html">Expansion Infrastructure</a>
+                      <a href="services.html">Intelligence Retainer</a>
+                      <a href="services.html">Simulation Engine</a>
                     </nav>
                   </div>
                 </div>
 
                 <div class="col-6 col-lg-3">
                   <div class="nav-column">
-                    <h6>Resources</h6>
+                    <h6>Markets</h6>
                     <nav class="footer-nav">
-                      <a href="#!">Design Blog</a>
-                      <a href="#!">Style Guide</a>
-                      <a href="#!">Free Assets</a>
-                      <a href="#!">Tutorials</a>
-                      <a href="#!">Inspiration</a>
+                      <a href="#!">Nigeria</a>
+                      <a href="#!">Kenya</a>
+                      <a href="#!">South Africa</a>
+                      <a href="#!">United Kingdom</a>
+                      <a href="#!">EU (Lithuania / Ireland)</a>
                     </nav>
                   </div>
                 </div>
@@ -753,11 +847,11 @@
                   <div class="nav-column">
                     <h6>Connect</h6>
                     <nav class="footer-nav">
-                      <a href="#!">Start Project</a>
-                      <a href="#!">Schedule Call</a>
-                      <a href="#!">Join Newsletter</a>
-                      <a href="#!">Follow Updates</a>
-                      <a href="#!">Partnership</a>
+                      <a href="appointment.html">Book a Call</a>
+                      <a href="contact.html">Get in Touch</a>
+                      <a href="starter-page.html">Read the Blog</a>
+                      <a href="#!">Subscribe on Substack</a>
+                      <a href="#!">Follow on LinkedIn</a>
                     </nav>
                   </div>
                 </div>
@@ -786,7 +880,7 @@
               <div class="legal-links">
                 <a href="privacy.html">Privacy Policy</a>
                 <a href="terms.html">Terms of Service</a>
-                <a href="404.html">Cookie Policy</a>
+                <a href="faq.html">FAQ</a>
               </div>
             </div>
 
@@ -801,9 +895,6 @@
   <a href="#!" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <!-- <div id="preloader"></div> -->
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -811,10 +902,7 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
